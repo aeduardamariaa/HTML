@@ -12,60 +12,105 @@
     <header>
         <nav>
             <ul>
-                <li><a class="menu" href="">Home</a></li>
-                <li><a class="menu" href="">Sobre mim</a></li>
-                <li><a class="menu" href="">Portifólio</a></li>
-                <li><a class="menu" href="">Skills</a></li>
-                <li><a class="menu" href="">Contato</a></li>
+                <li><a class="menu" href="#home">Home</a></li>
+                <li><a class="menu" href="#section2">Sobre mim</a></li>
+                <li><a class="menu" href="#experiencia">Experiências</a></li>
+                <li><a class="menu" href="#section0">Skills</a></li>
+                <li><a class="menu" href="#section3">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="inicial">
-            <img class="foto-minha" src="rihanna.jpg" alt="">
-            <div class="sobre">
-                <h1 class="title-sobre slide-text">Maria Eduarda da Silva &lt;/&gt;</h1>
-                <p class="p-sobre typewriter-text">Eu sou a Maria, tenho 21 anos! Vou te contar um pouco mais sobre mim!
-                </p>
-            </div>
-        </div>
-        <div class="geral">
-            <div class="conteudo">
-                <article>
-                    <section>
-                        <h2>WHO I AM?</h2>
-                        <P>No dia 7 de setembro de 2002, em Curitiba, veio ao mundo uma bebê com dois dentes!</P><br>
-                        <p>Comecei minha vida academia fazendo química da UFPR, depois ingressei na Unicesumar no curso de Analise e Desenvolvimento de Sistemas.</p>
-                        <p></p>
-                    </section>
 
-                    <section>
-                        <h2>Linguagens</h2>
-                        <ul>
-                            <li>Python</li>
-                            <li>C/C++</li>
-                            <li>Java</li>
-                            <li>HTML e CSS</li>
-                            <li>PHP</li>
-                        </ul>
-                    </section>
+            <section class="inicial" id="home">
+                <img class="foto-minha" src="eupreto.jfif" alt="">
+                <div class="sobre">
+                    <h1 class="title-sobre slide-text">Maria Eduarda da Silva &lt;/&gt;</h1>
+                </div>
+            </section>
 
-                    <section id="section3">
-                        <form action="">
-                            <input type="email" name="" id="" placeholder="Nome"> <br>
-                            <input type="text" name="" id="" placeholder="Email"><br>
-                            <input type="text" placeholder="Mensagem"><br>
-                        </form>
-                    </section>
+        <article>
+            <section id="section2">
+                <div class="who">
 
-                </article>
-                <!-- <aside>
-                    aside
-                    <figure>figure</figure>
-                    <details>details</details>
-                </aside> -->
-            </div>
-        </div>
+                    <h2>WHO AM I?</h2><br><br><br>
+                    <P>No dia 7 de setembro de 2002, em Curitiba, veio ao mundo uma bebê com dois dentes!<br><br>
+                        Comecei minha vida academia fazendo química da UFPR, depois ingressei na Unicesumar no curso de
+                        Análise e Desenvolvimento de Sistemas.</p>
+                </div>
+                <img class="anjo" src="euanjo.jfif" alt="">
+                <p></p>
+            </section>
+            <section id="experiencia">
+                <div class="exp1">
+                    <h2>Experiências</h2>
+                    <table>
+                        <tr>
+                            <td><img class="works" src="works/bosch.jfif" alt=""></td>
+                            <td>Robert Bosch</td>
+                        </tr>
+                        <tr>
+                            <td><img class="works" src="works/tim.jpg" alt=""></td>
+                            <td>TIM Sul</td>
+                        </tr>
+                        <tr>
+                            <td><img class="works" src="works/prefs.jpg" alt=""></td>
+                            <td>Departamento de limpeza pública de Curitiba</td>
+
+                        </tr>
+                        <tr>
+                            <td><img class="works" src="works/services.jpg" alt=""></td>
+                            <td>Webhelp</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="linha"></div>
+                <div class="exp1">
+                    <h2>Atividades extras</h2>
+                    <table>
+                        <tr>
+                            <td><img class="works" src="atividades/encoraja.jpg" alt=""></td>
+                            <td>ONG Encoraja<br>(Desenvolvimento de aplicação)</td>
+                        </tr>
+                        <tr>
+                            <td><img class="works" src="atividades/images.png" alt=""></td>
+                            <td>Instituto Pedro Gaspar<br>(Arrecadação de fundos)</td>
+                        </tr>
+                        <tr>
+                            <td><img class="works" src="atividades/computos.jfif" alt=""></td>
+                            <td>Diretoria de Ação Social</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section id="section0">
+                <h2>Skills</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><img class="imgt" src="linguagens/icons8-logo-php.svg" alt=""></td>
+                            <td><img class="imgt" src="linguagens/icons8-html.svg" alt=""></td>
+                            <td><img class="imgt" src="linguagens/icons8-css.svg" alt=""></td>
+                            <td><img class="imgt" src="linguagens/icons8-logo-java-coffee-cup.svg" alt=""></td>
+                            <td><img class="imgt" src="linguagens/icons8-c.svg" alt=""></td>
+                            <td><img class="imgt" src="linguagens/icons8-python.svg" alt=""></td>
+                            <td><img class="imgt" src="linguagens/icons8-javascript.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="section3">
+                <form action="">
+                    <h2>Contato</h2><br>
+                    <input type="text" name="" id="" placeholder="Nome"> <br>
+                    <input type="text" name="" id="" placeholder="Email"><br>
+                    <input class="inputmsg" type="text" placeholder="Mensagem"><br>
+                    <input class="submit" type="submit" value="Enviar">
+                </form>
+            </section>
+
+        </article>
     </main>
     <footer>
         <a href="https://br.linkedin.com/"><img class="img" src="icons8-github-500.png" alt=""></a>
